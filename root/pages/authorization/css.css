@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  width: calc(100% + 20px);
+  padding: 8px;
+
+  height: 100vh;
+  /* perspective: 800px; */
+  /* overflow: hidden; */
+  display: grid;
+  /* place-items: center; */
+  background: linear-gradient(#a4bfde, #11788f);
+  color : white;
+}
+
+header{
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+nav {
+  
+  font-family: Lato, serif;
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+ul {
+  height: 96px;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  margin:30px ;
+}
+
+li > a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+main {
+  /* position: relative;
+  transform-style: preserve-3d;
+  transition: all 500ms ease; */
+  width: 50vmin;
+  height: 75vmin;
+}
+

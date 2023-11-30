@@ -1,8 +1,4 @@
-/**
- * Initially the elements are positioned in front of the camera.
- * We define here the transformations to position them in the scene.
- * When clicking on an item, we apply the inversed transformation but on the main container to "zoom" on the item
- */
+
 const articles = new Map([
   ["0", { tx: "-90%", tz: "-70vmin", ry: "60deg" }],
   ["1", { tz: "-110vmin" }],
