@@ -11,10 +11,12 @@
   --color-dark: black;
 }
 
+
+
  header{
   position: absolute;
   left: 50%;
-  top:3%;
+  top:98px;
   transform: translate(-50%, -50%);
   height: 180px;
   display: flex;

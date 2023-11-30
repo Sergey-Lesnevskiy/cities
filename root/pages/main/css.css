@@ -5,17 +5,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body {
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* body {
+  overflow-y: scroll;
+  width: calc(100% + 20px);
+  padding: 8px;
+} */
 
 body {
+
+  overflow-y: scroll;
+  width: calc(100% + 20px);
+  padding: 8px;
   height: 100vh;
   perspective: 800px;
-  /* overflow: hidden; */
   display: grid;
   place-items: center;
   background: linear-gradient(#3a4149, #111722);
-  color : white;
+  color: white;
 }
-header{
+header {
   height: 180px;
   display: flex;
   justify-content: center;
@@ -23,7 +38,6 @@ header{
 }
 
 nav {
-  
   font-family: Lato, serif;
   margin-top: 60px;
   font-size: 30px;
@@ -37,7 +51,7 @@ ul {
 
 li {
   list-style-type: none;
-  margin:30px ;
+  margin: 30px;
 }
 
 li > a {
@@ -63,8 +77,10 @@ img {
 article {
   position: absolute;
   inset: 0;
-  -webkit-box-reflect: below 50px linear-gradient(transparent, rgba(255, 255, 255, 0.15));
+  -webkit-box-reflect: below 50px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.15));
 }
+
 article button {
   border: 0;
   outline: 0;
@@ -73,27 +89,57 @@ article button {
   height: 100%;
   overflow: hidden;
   border-radius: 12px;
-  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms ease;
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 200ms ease;
 }
+
 article button:focus-visible {
   box-shadow: 0 0 0 3px cyan;
 }
+
 article button:focus {
   box-shadow: 0 0 0 3px cyan;
 }
+
 article button:focus:not(:focus-visible) {
   box-shadow: none;
 }
-article button:hover, article button:focus-visible {
+
+article button:hover,
+article button:focus-visible {
   transform: scale(1.03) translateY(-4%);
 }
 
 .articles {
   margin-top: 30px;
   height: 300px;
-  font-size:24px;
+  font-size: 24px;
   padding: 50px;
 }
+
 .articles h1 {
   margin-left: 50px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 50px;
+  text-align: center;
+  width: 100vw;
+  height: 100px;
+  background-color: rgba(240, 248, 255, 0.417);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+a:link {
+  color: #f3f6f6; 
+}
+
+a:visited {
+  color: #e3e7ec; 
+}
+
+a:active {
+  color: rgb(188, 195, 197); 
 }

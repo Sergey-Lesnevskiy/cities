@@ -13,10 +13,22 @@ img, svg {
 	max-width: 100%;
 	height: auto;
 }
+html, body {
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
 
 body {
-  max-width: 1200px;
+  overflow-y: scroll;
+  padding: 8px;
+  width: calc(100% + 10px);
   background-color: rgba(43, 201, 245, 0.599);
+}
+
+.container{
+  max-width: 1200px;
   color: rgb(70, 75, 73);
   margin: 0 auto;
   font-size: 20px;
