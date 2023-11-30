@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <script src="../assets/libs/gsap.min.js" defer></script>
+  <script src="../assets/libs/Draggable.min.js" defer></script>
+  <script src="../assets/libs/InertiaPlugin.min.js" defer></script>
+  <script src="js.js" defer></script>
+  <title>Church</title>
+  <style>
+    .gallery {
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul class="links">
+        <li>
+          <a href="../">Главная</a>
+        </li>
+        <li>
+          <a href="../nemiga/index.html">Немига</a>
+        </li>
+        <li>
+          <a href="../church/index.html">Церкви</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <h1 class="header">
+
+      <span>Loading...</span>
+    </h1>
+
+    <div class="gallery">
+      <div class="gallery__item" data-photo="0"><img src="../assets/image/church/002.jpg" alt="">
+      <p class="description">description</p></div>
+      <div class="gallery__item" data-photo="0"><img src="../assets/image/church/002.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="0"><img src="../assets/image/church/002.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="0"><img src="../assets/image/church/002.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="1"><img src="../assets/image/church/1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="1"><img src="../assets/image/church/1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="1"><img src="../assets/image/church/1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="1"><img src="../assets/image/church/1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="2"><img src="../assets/image/church/foto.jpg" alt="">
+      </div>
+      <div class="gallery__item" data-photo="2"><img src="../assets/image/church/foto.jpg" alt="">
+      </div>
+      <div class="gallery__item" data-photo="2"><img src="../assets/image/church/foto.jpg" alt="">
+      </div>
+      <div class="gallery__item" data-photo="2"><img src="../assets/image/church/foto.jpg" alt="">
+      </div>
+      <div class="gallery__item" data-photo="3"><img src="../assets/image/church/foto_2.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="3"><img src="../assets/image/church/foto_2.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="3"><img src="../assets/image/church/foto_2.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="3"><img src="../assets/image/church/foto_2.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="4"><img src="../assets/image/church/hram_v_serebranke.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="4"><img src="../assets/image/church/hram_v_serebranke.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="4"><img src="../assets/image/church/hram_v_serebranke.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="4"><img src="../assets/image/church/hram_v_serebranke.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="5"><img src="../assets/image/church/Kliastar_bazyljanau,_Miensk.jpg"
+          alt=""></div>
+      <div class="gallery__item" data-photo="5"><img src="../assets/image/church/Kliastar_bazyljanau,_Miensk.jpg"
+          alt=""></div>
+      <div class="gallery__item" data-photo="5"><img src="../assets/image/church/Kliastar_bazyljanau,_Miensk.jpg"
+          alt=""></div>
+      <div class="gallery__item" data-photo="5"><img src="../assets/image/church/Kliastar_bazyljanau,_Miensk.jpg"
+          alt=""></div>
+      <div class="gallery__item" data-photo="6"><img src="../assets/image/church/KosciolSwTrojcy1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="6"><img src="../assets/image/church/KosciolSwTrojcy1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="6"><img src="../assets/image/church/KosciolSwTrojcy1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="6"><img src="../assets/image/church/KosciolSwTrojcy1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="7"><img src="../assets/image/church/kostel-krestitelya-1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="7"><img src="../assets/image/church/kostel-krestitelya-1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="7"><img src="../assets/image/church/kostel-krestitelya-1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="7"><img src="../assets/image/church/kostel-krestitelya-1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="8"><img src="../assets/image/church/krasnyj-kostel.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="8"><img src="../assets/image/church/krasnyj-kostel.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="8"><img src="../assets/image/church/krasnyj-kostel.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="8"><img src="../assets/image/church/krasnyj-kostel.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="9"><img src="../assets/image/church/monasnyr.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="9"><img src="../assets/image/church/monasnyr.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="9"><img src="../assets/image/church/monasnyr.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="9"><img src="../assets/image/church/monasnyr.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="10"><img src="../assets/image/church/orig.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="10"><img src="../assets/image/church/orig.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="10"><img src="../assets/image/church/orig.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="10"><img src="../assets/image/church/orig.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="11"><img src="../assets/image/church/church.webp" alt=""></div>
+      <div class="gallery__item" data-photo="11"><img src="../assets/image/church/church.webp" alt=""></div>
+      <div class="gallery__item" data-photo="11"><img src="../assets/image/church/church.webp" alt=""></div>
+      <div class="gallery__item" data-photo="11"><img src="../assets/image/church/church.webp" alt=""></div>
+      <div class="gallery__item" data-photo="12"><img src="../assets/image/church/church_2.webp" alt=""></div>
+      <div class="gallery__item" data-photo="12"><img src="../assets/image/church/church_2.webp" alt=""></div>
+      <div class="gallery__item" data-photo="12"><img src="../assets/image/church/church_2.webp" alt=""></div>
+      <div class="gallery__item" data-photo="12"><img src="../assets/image/church/church_2.webp" alt=""></div>
+      <div class="gallery__item" data-photo="0"><img src="../assets/image/church/002.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="0"><img src="../assets/image/church/002.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="0"><img src="../assets/image/church/002.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="0"><img src="../assets/image/church/002.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="1"><img src="../assets/image/church/1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="1"><img src="../assets/image/church/1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="1"><img src="../assets/image/church/1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="1"><img src="../assets/image/church/1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="2"><img src="../assets/image/church/foto.jpg" alt="">
+      </div>
+      <div class="gallery__item" data-photo="2"><img src="../assets/image/church/foto.jpg" alt="">
+      </div>
+      <div class="gallery__item" data-photo="2"><img src="../assets/image/church/foto.jpg" alt="">
+      </div>
+      <div class="gallery__item" data-photo="2"><img src="../assets/image/church/foto.jpg" alt="">
+      </div>
+      <div class="gallery__item" data-photo="3"><img src="../assets/image/church/foto_2.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="3"><img src="../assets/image/church/foto_2.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="3"><img src="../assets/image/church/foto_2.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="3"><img src="../assets/image/church/foto_2.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="4"><img src="../assets/image/church/hram_v_serebranke.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="4"><img src="../assets/image/church/hram_v_serebranke.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="4"><img src="../assets/image/church/hram_v_serebranke.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="4"><img src="../assets/image/church/hram_v_serebranke.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="5"><img src="../assets/image/church/Kliastar_bazyljanau,_Miensk.jpg"
+          alt=""></div>
+      <div class="gallery__item" data-photo="5"><img src="../assets/image/church/Kliastar_bazyljanau,_Miensk.jpg"
+          alt=""></div>
+      <div class="gallery__item" data-photo="5"><img src="../assets/image/church/Kliastar_bazyljanau,_Miensk.jpg"
+          alt=""></div>
+      <div class="gallery__item" data-photo="5"><img src="../assets/image/church/Kliastar_bazyljanau,_Miensk.jpg"
+          alt=""></div>
+      <div class="gallery__item" data-photo="6"><img src="../assets/image/church/KosciolSwTrojcy1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="6"><img src="../assets/image/church/KosciolSwTrojcy1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="6"><img src="../assets/image/church/KosciolSwTrojcy1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="6"><img src="../assets/image/church/KosciolSwTrojcy1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="7"><img src="../assets/image/church/kostel-krestitelya-1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="7"><img src="../assets/image/church/kostel-krestitelya-1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="7"><img src="../assets/image/church/kostel-krestitelya-1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="7"><img src="../assets/image/church/kostel-krestitelya-1.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="8"><img src="../assets/image/church/krasnyj-kostel.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="8"><img src="../assets/image/church/krasnyj-kostel.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="8"><img src="../assets/image/church/krasnyj-kostel.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="8"><img src="../assets/image/church/krasnyj-kostel.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="9"><img src="../assets/image/church/monasnyr.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="9"><img src="../assets/image/church/monasnyr.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="9"><img src="../assets/image/church/monasnyr.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="9"><img src="../assets/image/church/monasnyr.jpg" alt=""></div>
+      <div class="gallery__item" data-photo="10"><img src="../assets/image/church/orig.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="10"><img src="../assets/image/church/orig.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="10"><img src="../assets/image/church/orig.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="10"><img src="../assets/image/church/orig.jpeg" alt=""></div>
+      <div class="gallery__item" data-photo="11"><img src="../assets/image/church/church.webp" alt=""></div>
+      <div class="gallery__item" data-photo="11"><img src="../assets/image/church/church.webp" alt=""></div>
+      <div class="gallery__item" data-photo="11"><img src="../assets/image/church/church.webp" alt=""></div>
+      <div class="gallery__item" data-photo="11"><img src="../assets/image/church/church.webp" alt=""></div>
+      <div class="gallery__item" data-photo="12"><img src="../assets/image/church/church_2.webp" alt=""></div>
+      <div class="gallery__item" data-photo="12"><img src="../assets/image/church/church_2.webp" alt=""></div>
+      <div class="gallery__item" data-photo="12"><img src="../assets/image/church/church_2.webp" alt=""></div>
+      <div class="gallery__item" data-photo="12"><img src="../assets/image/church/church_2.webp" alt=""></div>
+
+
+
+
+    </div>
+
+
+
+  </main>
+
+
+  <footer>
+
+  </footer>
+
+
+</body>
+
+</html>
